@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/dayanand-anglo-vedic-institute-of-engineering-and-technology-jalandhar-19805",
   "https://www.shiksha.com/college/st-ann-s-college-of-engineering-and-technology-prakasam-21319",
   "https://www.shiksha.com/college/pict-school-of-technology-and-management-balewadi-pune-22109",
-  "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-management-pitm-guntur-42616",
-  "https://www.shiksha.com/college/international-institute-of-industrial-safety-management-nagarbhavi-bangalore-47409",
-  "https://www.shiksha.com/college/mangalvedhekar-institute-of-management-solapur-64303",
-  "https://www.shiksha.com/college/shri-mh-kadakia-institute-of-management-and-computer-studies-ankleshwar-69247",
-  "https://www.shiksha.com/college/b-f-i-t-technical-campus-dehradun-187465",
-  "https://www.shiksha.com/college/school-of-agribusiness-and-rural-management-sarm-greater-noida-244072",
-  "https://www.shiksha.com/college/j-k-c-college-guntur-20351",
+  # "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-management-pitm-guntur-42616",
+  # "https://www.shiksha.com/college/international-institute-of-industrial-safety-management-nagarbhavi-bangalore-47409",
+  # "https://www.shiksha.com/college/mangalvedhekar-institute-of-management-solapur-64303",
+  # "https://www.shiksha.com/college/shri-mh-kadakia-institute-of-management-and-computer-studies-ankleshwar-69247",
+  # "https://www.shiksha.com/college/b-f-i-t-technical-campus-dehradun-187465",
+  # "https://www.shiksha.com/college/school-of-agribusiness-and-rural-management-sarm-greater-noida-244072",
+  # "https://www.shiksha.com/college/j-k-c-college-guntur-20351",
 ]
 
 
