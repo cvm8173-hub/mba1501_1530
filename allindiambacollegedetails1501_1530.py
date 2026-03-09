@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/prism-school-of-business-entrepreneurship-psbe-bhilai-37374",
-  "https://www.shiksha.com/college/impact-institute-of-management-studies-sahakara-nagar-bangalore-38220",
-  "https://www.shiksha.com/college/ilam-jaipur-national-university-jaipur-56615",
-  "https://www.shiksha.com/college/kingston-pg-college-ranga-reddy-62119",
-  "https://www.shiksha.com/college/new-science-pg-college-warangal-62163",
-  "https://www.shiksha.com/college/prabhath-institute-of-business-management-kurnool-62373",
-  "https://www.shiksha.com/college/musaliar-institute-of-management-pathanamthitta-63403",
-  "https://www.shiksha.com/college/global-institute-of-management-sangamner-ahmednagar-64227",
-  "https://www.shiksha.com/college/jay-bhavani-institute-of-management-jalna-179845",
-  "https://www.shiksha.com/college/icri-bangalore-institute-of-clinical-research-india-bangalore-indiranagar-3596",
-  "https://www.shiksha.com/college/millennium-group-of-institution-bhopal-31006",
-  "https://www.shiksha.com/college/gimt-gandhi-institute-of-management-and-technology-salt-lake-city-kolkata-38994",
-  "https://www.shiksha.com/college/nbs-naipunnya-business-school-thrissur-51885",
-  "https://www.shiksha.com/college/aditya-engineering-college-beed-maharashtra-other-59557",
-  "https://www.shiksha.com/college/dr-d-veerendra-heggade-institute-of-management-studies-research-dharwad-67255",
-  "https://www.shiksha.com/college/haranahalli-ramaswamy-institute-of-higher-education-hassan-67259",
-  "https://www.shiksha.com/college/oxford-college-of-business-administration-hubli-69447",
-  "https://www.shiksha.com/college/gyanveer-group-of-institution-sagar-72125",
-  "https://www.shiksha.com/college/indian-school-of-public-policy-ispp-hauz-khas-delhi-150841",
-  "https://www.shiksha.com/college/kmct-school-of-management-kozhikode-156385",
-  "https://www.shiksha.com/college/dayanand-anglo-vedic-institute-of-engineering-and-technology-jalandhar-19805",
-  "https://www.shiksha.com/college/st-ann-s-college-of-engineering-and-technology-prakasam-21319",
-  "https://www.shiksha.com/college/pict-school-of-technology-and-management-balewadi-pune-22109",
-  # "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-management-pitm-guntur-42616",
-  # "https://www.shiksha.com/college/international-institute-of-industrial-safety-management-nagarbhavi-bangalore-47409",
-  # "https://www.shiksha.com/college/mangalvedhekar-institute-of-management-solapur-64303",
-  # "https://www.shiksha.com/college/shri-mh-kadakia-institute-of-management-and-computer-studies-ankleshwar-69247",
-  # "https://www.shiksha.com/college/b-f-i-t-technical-campus-dehradun-187465",
-  # "https://www.shiksha.com/college/school-of-agribusiness-and-rural-management-sarm-greater-noida-244072",
-  # "https://www.shiksha.com/college/j-k-c-college-guntur-20351",
+#   "https://www.shiksha.com/college/prism-school-of-business-entrepreneurship-psbe-bhilai-37374",
+#   "https://www.shiksha.com/college/impact-institute-of-management-studies-sahakara-nagar-bangalore-38220",
+#   "https://www.shiksha.com/college/ilam-jaipur-national-university-jaipur-56615",
+#   "https://www.shiksha.com/college/kingston-pg-college-ranga-reddy-62119",
+#   "https://www.shiksha.com/college/new-science-pg-college-warangal-62163",
+#   "https://www.shiksha.com/college/prabhath-institute-of-business-management-kurnool-62373",
+#   "https://www.shiksha.com/college/musaliar-institute-of-management-pathanamthitta-63403",
+#   "https://www.shiksha.com/college/global-institute-of-management-sangamner-ahmednagar-64227",
+#   "https://www.shiksha.com/college/jay-bhavani-institute-of-management-jalna-179845",
+#   "https://www.shiksha.com/college/icri-bangalore-institute-of-clinical-research-india-bangalore-indiranagar-3596",
+#   "https://www.shiksha.com/college/millennium-group-of-institution-bhopal-31006",
+#   "https://www.shiksha.com/college/gimt-gandhi-institute-of-management-and-technology-salt-lake-city-kolkata-38994",
+#   "https://www.shiksha.com/college/nbs-naipunnya-business-school-thrissur-51885",
+#   "https://www.shiksha.com/college/aditya-engineering-college-beed-maharashtra-other-59557",
+#   "https://www.shiksha.com/college/dr-d-veerendra-heggade-institute-of-management-studies-research-dharwad-67255",
+#   "https://www.shiksha.com/college/haranahalli-ramaswamy-institute-of-higher-education-hassan-67259",
+#   "https://www.shiksha.com/college/oxford-college-of-business-administration-hubli-69447",
+#   "https://www.shiksha.com/college/gyanveer-group-of-institution-sagar-72125",
+#   "https://www.shiksha.com/college/indian-school-of-public-policy-ispp-hauz-khas-delhi-150841",
+#   "https://www.shiksha.com/college/kmct-school-of-management-kozhikode-156385",
+#   "https://www.shiksha.com/college/dayanand-anglo-vedic-institute-of-engineering-and-technology-jalandhar-19805",
+#   "https://www.shiksha.com/college/st-ann-s-college-of-engineering-and-technology-prakasam-21319",
+#   "https://www.shiksha.com/college/pict-school-of-technology-and-management-balewadi-pune-22109",
+  "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-management-pitm-guntur-42616",
+  "https://www.shiksha.com/college/international-institute-of-industrial-safety-management-nagarbhavi-bangalore-47409",
+  "https://www.shiksha.com/college/mangalvedhekar-institute-of-management-solapur-64303",
+  "https://www.shiksha.com/college/shri-mh-kadakia-institute-of-management-and-computer-studies-ankleshwar-69247",
+  "https://www.shiksha.com/college/b-f-i-t-technical-campus-dehradun-187465",
+  "https://www.shiksha.com/college/school-of-agribusiness-and-rural-management-sarm-greater-noida-244072",
+  "https://www.shiksha.com/college/j-k-c-college-guntur-20351",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1501
+    c_count =1524
 
     try:
         for base_url in BASE_URL:
