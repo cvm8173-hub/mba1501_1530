@@ -8474,7 +8474,7 @@ def parse_faculty_full_html(driver,URLS):
         )
     except:
         print("⚠️ parse_faculty_full_html not available, skipping")
-   
+        return None
     
     try:
         # Scroll to section
